@@ -6,7 +6,8 @@ import NaverLoginBtn from '../../components/NaverLoginBtn'
 
 
 
-function Login({}) {
+function Login({token}) {
+  console.log("token", token)
   return (
     <div className="Login">
         <KakaoLoginBtn />
