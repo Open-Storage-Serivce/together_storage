@@ -6,7 +6,6 @@ import NaverLoginBtn from '../../components/NaverLoginBtn'
 
 
 
-
 function Login({}) {
   return (
     <div className="Login">
